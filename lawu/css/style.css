@@ -1,0 +1,119 @@
+/* Website template by freewebsitetemplates.com */
+/*@font-face {
+	font-family: 'OpenSans';
+	src: url('../fonts/OpenSans-Regular.eot');
+	src: local('☺'), url('../fonts/OpenSans-Regular.woff') format('woff'), url('../fonts/OpenSans-Regular.ttf') format('truetype'), url('../fonts/OpenSans-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Play';
+	src: url('../fonts/Play-Regular.eot');
+	src: local('☺'), url('../fonts/Play-Regular.woff') format('woff'), url('../fonts/Play-Regular.ttf') format('truetype'), url('../fonts/Play-Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+*/
+@font-face {
+	font-family: 'Lucida';
+	src: url('../fonts/Lucida-Calligraphy.ttf');
+}
+@font-face {
+	font-family: 'Monotype';
+	src: url('../fonts/Monotype-Corsiva.ttf');
+}
+body {
+	background-color: #eee;
+	font-family: 'OpenSans';
+}
+#center{
+    width:900px;                                                                
+    text-align: left;                                                         
+    margin-left: auto;                                                 
+    margin-right:auto;                                                          
+}
+.clearfix:after, #contents:after {
+	clear:both;
+	content:"";
+	display:block;
+	height:1%;
+	line-height:0;
+	visibility:hidden;
+}
+.btn {
+	background: url(../images/bg-button.png) no-repeat;
+	background-position: 0 -70px;
+	color: #fff;
+	display: inline-block;
+	font: 24px/60px 'OpenSans';
+	height: 60px;
+	width: 230px;
+	text-align: center;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.btn:hover {
+	background-position: 0 0;
+}
+a:link {
+    text-decoration: none;
+    color: #2E9AFE;
+}
+a:visited {
+    text-decoration: none;
+    color: #2E9AFE;
+}
+a:hover {
+    text-decoration: none;
+    color: gray;
+} 
+/*------------------------------ HEADER ------------------------------*/
+#header {
+	background-color: #eee;
+    /*margin:0,10px;*/
+	border-bottom: 1px solid #FFAF60;/*e6e6e6;*/
+	padding: 36px 10px;
+    /*margin-top: 5%;*/
+    font-size: 47px;
+}
+
+/*------------------------------ BODY ------------------------------*/
+#main {
+    margin: 5%;
+    margin-left: 1%;
+    margin-right: 1%;
+    /*padding: 0px;*/
+    font-size:25px;
+}
+
+/*------------------------------ FOOTER ------------------------------*/
+#footer {
+	background-color: #eee;
+	border-top: 1px solid #d8d8d8;
+	padding: 47px 0;
+	font-size: 12px;
+}
+#footer p {
+	font-size: 5px;
+	line-height: 30px;
+	padding-left: 10px;
+}
+
+#circle {
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin-left: 25%;
+}
+#oval {
+    width: 200px;
+    height: 80px;
+    background: #fff;
+    -moz-border-radius: 100px / 50px;
+    -webkit-border-radius: 100px / 50px;
+    border-radius: 100px / 50px;
+}
+
